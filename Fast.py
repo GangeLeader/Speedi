@@ -354,7 +354,7 @@ def pilih_mbf():
 									cek.write(user+"|"+pass3+"\n")
 									cek.close()
 									cekpoint.append(user+pass3)
-								else:
+								
         except:
             pass
 
