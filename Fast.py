@@ -355,8 +355,8 @@ def pilih_mbf():
 									cek.close()
 									cekpoint.append(user+pass3)
 								else:
-     except:
-            pass
+        except:
+               pass
 
     p = ThreadPool(30)
     p.map(main, id)
